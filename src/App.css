@@ -41,7 +41,7 @@
   right: 0%;
   padding: 1.5em 1em;
   text-align: left;
-  width: 54%;
+  width: 40%;
 }
 
 .div-mobile-menu-inner button {
@@ -50,11 +50,14 @@
   color: #fff;
 }
 .div-mobile-menu-inner ul {
-  color: #fff;
   padding-top: 2em;
 }
 .div-mobile-menu-inner ul li {
   font-size: 2rem;
   font-weight: 400;
   padding: 1em 0;
+}
+.div-mobile-menu-inner ul li a {
+  color: #fff;
+  text-decoration: none;
 }
