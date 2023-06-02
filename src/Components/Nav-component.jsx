@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types'
 
-export const NavComponent = () => {
-    const [openMobileMenu, setOpenMobileMenu] = useState(false);
+export const NavComponent = ({ openMobileMenu, setOpenMobileMenu}) => {
+    
 
     const clickHandler = () => {
         setOpenMobileMenu(!openMobileMenu)
@@ -39,4 +39,9 @@ export const NavComponent = () => {
         </div>
     )
 
+}
+
+NavComponent.propTypes = {
+    openMobileMenu: PropTypes.bool,
+    setOpenMobileMenu: PropTypes.func   
 }
