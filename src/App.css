@@ -1,4 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+}
+.App {
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  padding: 1em 0;
+}
+.nav-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-desktop {
+  display: none;
+}
+.div-mobile-menu {
+  background-color:rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0%;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+}
+.div-mobile-menu-inner {
+  background-color: black;
+  height: inherit;
+  position: absolute;
+  right: 0%;
+  padding: 1.5em 1em;
+  text-align: left;
+  width: 54%;
+}
+
+.div-mobile-menu-inner button {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+.div-mobile-menu-inner ul {
+  color: #fff;
+  padding-top: 2em;
+}
+.div-mobile-menu-inner ul li {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1em 0;
 }

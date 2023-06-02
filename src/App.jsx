@@ -1,3 +1,4 @@
+import { NavComponent } from './Components/Nav-component'
 
 import './App.css'
 
@@ -5,9 +6,10 @@ function App() {
   
 
   return (
-    <div>
-      <h1>Oscar Anillo</h1>
-      <p>Web UI Developer</p>
+    <div className='App'>
+      <div className='container'>
+        <NavComponent />
+      </div>
     </div>
   )
 }
