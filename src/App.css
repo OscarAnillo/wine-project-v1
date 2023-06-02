@@ -1,4 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+.App {
+  min-height: 100vh;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 90%;
+  padding: 1em 0;
+}
+.nav-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.nav-desktop {
+  display: none;
+}
+.div-mobile-menu {
+  background-color:rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0%;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+}
+.div-mobile-menu-inner {
+  background-color: black;
+  height: inherit;
+  position: absolute;
+  right: 0%;
+  padding: 1.5em 1em;
+  text-align: left;
+  width: 40%;
+}
+
+.div-mobile-menu-inner button {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+.div-mobile-menu-inner ul {
+  padding-top: 2em;
+}
+.div-mobile-menu-inner ul li {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1em 0;
+}
+.div-mobile-menu-inner ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Home */
+.home-div {
+  text-align: left;
+}
+.home-bg {
+  background-image: url("public/hero-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+.desktop-text {
+  display: none;
+}
+.mobile-text {
+  width: 90%;
+  margin: 0 auto;
+}
+.mobile-text h1 {
+  letter-spacing: 1px;
+  padding: .5em 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.mobile-text p {
+  color: #8d8787;
+  line-height: 1.6rem;
+  padding-bottom: 1em;
+}
+
+.mobile-text button {
+  background-color: rgb(216, 15, 15);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 1em 1.5em;
+  text-transform: uppercase;
+}
+
+.lower-text {
+  margin-top: 3em;
+}
+.lower-text h2 {
+  letter-spacing: 1px;
+  text-align: center;
+  padding: .5em 0;
+}
+.lower-text p {
+  color: #8d8787;
+  line-height: 1.6rem;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  width: 90%;
+}
+
+/* Products */
+.div-product {
+  text-align: center;
+  padding-top: 3em;
+}
+.div-product h2 {
+  padding-bottom: 1em;
+}
+.map-div {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+.map-div img {
+  border-radius: 5px;
+  height: 450px;
+  width: 100%;
+}
+.map-div div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Single Product */
+.single-div {
+  margin: 0 auto;
+  padding: 2em 0;
+  width: 90%;
+}
+.single-div h2 {
+  padding-bottom: .5em;
+}
+.single-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Contact */
+.contact-div {
+  margin: 0 auto;
+  width: 90%;
+}
+.contact-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-row > div {
+  background-color: rgb(67, 98, 138);
+  color: #fff;
+  margin: 1em 0;
+  padding: 1.5em;
+  width: 35%;
+}
+.contact-form {
+  text-align: center;
+}
+.contact-form input {
+  border: none;
+  border-bottom: 1px solid #f1f1f1;
+  margin: .5em 0em;
+  padding: 1em;
+  width: 90%;
+}
+.contact-form input::placeholder {
+  color: #8d8787;
+}
+.contact-form textarea {
+  border: 1px solid #f1f1f1;
+  height: 180px;
+  margin-top: 1em;
+  resize: none;
+  width: 97%;
+}
+.contact-form button {
+  background: rgb(0, 4, 255);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1em;
 }

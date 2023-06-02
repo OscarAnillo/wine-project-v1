@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "name":"Belousova",
+        "price":"30.00",
+        "image":"Products/belousova.jpg",
+        "desc":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus numquam sequi fugit ea. Esse, cumque quidem debitis culpa autem similique sunt iste voluptatem voluptates"
+    },
+    {
+        "id":2,
+        "name":"Boltneva",
+        "price":"45.00",
+        "image":"Products/boltneva.jpg",
+        "desc":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus numquam sequi fugit ea. Esse, cumque quidem debitis culpa autem similique sunt iste voluptatem voluptates"
+    },
+    {
+        "id":3,
+        "name":"Claire",
+        "price":"40.00",
+        "image":"Products/claire.jpg",
+        "desc":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus numquam sequi fugit ea. Esse, cumque quidem debitis culpa autem similique sunt iste voluptatem voluptates"
+    },
+    {
+        "id":4,
+        "name":"Asanbekava",
+        "price":"38.00",
+        "image":"Products/asanbekava.jpg",
+        "desc":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus numquam sequi fugit ea. Esse, cumque quidem debitis culpa autem similique sunt iste voluptatem voluptates"
+    },
+    {
+        "id":5,
+        "name":"Chernaya",
+        "price":"45.00",
+        "image":"Products/chernaya.jpg",
+        "desc":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus numquam sequi fugit ea. Esse, cumque quidem debitis culpa autem similique sunt iste voluptatem voluptates"
+    }
+]
