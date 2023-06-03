@@ -6,7 +6,7 @@ export const SingleProduct = ({ product }) => {
     return (
         <div className='single-div'>
             <h2>Product</h2>
-            <img src={`/public/${image}`} alt="" />
+            <img src={`${image}`} alt="" />
             <div className='single-row'>
                 <h2>{name}</h2>
                 <p>${price}</p>
