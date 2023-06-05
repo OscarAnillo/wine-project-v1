@@ -32,8 +32,7 @@ function App() {
 
   return (
     <div className='App'>
-      
-        <NavComponent openMobileMenu={openMobileMenu} setOpenMobileMenu={setOpenMobileMenu}/>
+      <NavComponent openMobileMenu={openMobileMenu} setOpenMobileMenu={setOpenMobileMenu}/>
         <Routes>
           <Route path='/' element={<HomeComponent />} />
           <Route path='/products' element={<Products />} />
