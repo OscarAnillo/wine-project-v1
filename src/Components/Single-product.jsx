@@ -11,7 +11,7 @@ export const SingleProduct = ({ product }) => {
                 <h2>{name}</h2>
                 <p>${price}</p>
             </div>
-            <p>{desc}</p>
+            <p className='single-div-desc'>{desc}</p>
         </div>
     )
 }
